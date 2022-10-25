@@ -17,7 +17,7 @@ class StartScreen extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                height: 200,
+                height: 300,
                 width: 200,
                 child: Image.asset("assets/matthias-person.256x256.jpg"),),
               machZeile(
