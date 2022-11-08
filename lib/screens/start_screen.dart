@@ -9,7 +9,7 @@ class StartScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "Janniks coole Seite",
+          "Leas Seite",
         ),
       ),
       body: SingleChildScrollView(
@@ -21,13 +21,13 @@ class StartScreen extends StatelessWidget {
                 width: 200,
                 child: Image.asset("assets/matthias-person.256x256.jpg"),),
               machZeile(
-                text: "Alter: 26"
+                text: "Alter: 22"
               ),
               machZeile(
-                text: "Augenfarbe: graublau"
+                text: "Studiengang: Digitale Medien"
               ),
               machZeile(
-                text: "Bankdrücken: 120 kg"
+                text: "Wetter: Sonnig"
               )
             ],
           ),
